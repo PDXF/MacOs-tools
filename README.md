@@ -25,7 +25,7 @@ The tools in this repo are simple, easy to use, and can be run directly from the
 
 3. Install the required dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 
 ## Usage
