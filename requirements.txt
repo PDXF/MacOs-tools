@@ -1,0 +1,43 @@
+# macOS Tools - Requirements
+# Owned and maintained by Valk, Admin: PDXF
+
+# Python version
+python_version >= 3.6
+
+# Core libraries for utility tools
+rich==13.0.0  # Beautiful and flexible Python library for command-line applications
+
+# UI libraries (in case of future graphical tools)
+tkinter==8.6.9  # Standard Python GUI library
+customtkinter==5.1.0  # Modern and customizable Tkinter widgets
+
+# HTTP and networking libraries
+requests==2.25.1  # For making HTTP requests
+urllib3==1.26.6  # For handling HTTP requests and connections
+
+# File and directory handling
+pathlib==1.0.1  # Standard library for manipulating filesystem paths (Python 3.4+)
+os==0.1.4  # For interacting with the operating system
+
+# Data manipulation
+pandas==1.3.2  # Data analysis and manipulation library
+numpy==1.21.0  # Core scientific computing library
+
+# Text manipulation
+pyperclip==1.8.2  # Clipboard text copy/paste utility
+python-docx==0.8.11  # For reading/writing Word documents
+python-pptx==0.6.18  # For working with PowerPoint files
+
+# Miscellaneous utilities
+pyyaml==5.4.1  # For parsing and writing YAML files
+paramiko==2.7.2  # SSH2 protocol library for Python
+psutil==5.8.0  # Cross-platform library for system and process utilities
+
+# Additional utilities (for future expansion)
+beautifulsoup4==4.10.0  # For web scraping tasks
+lxml==4.6.3  # XML and HTML parsing
+pillow==8.3.1  # Image processing library (for working with images)
+flask==2.0.1  # Web framework for Python (for building web apps)
+sqlite3==2.6.0  # SQLite database interface
+pytest==6.2.4  # Testing framework for Python
+
