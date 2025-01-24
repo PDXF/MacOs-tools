@@ -1,9 +1,6 @@
 # macOS Tools - Requirements
 # Owned and maintained by Valk, Admin: PDXF
 
-# Python version
-python_version >= 3.6
-
 # Core libraries for utility tools
 rich==13.0.0  # Beautiful and flexible Python library for command-line applications
 
@@ -40,4 +37,3 @@ pillow==8.3.1  # Image processing library (for working with images)
 flask==2.0.1  # Web framework for Python (for building web apps)
 sqlite3==2.6.0  # SQLite database interface
 pytest==6.2.4  # Testing framework for Python
-
