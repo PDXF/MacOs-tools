@@ -6,7 +6,6 @@ from rich.text import Text
 
 def change_hostname(new_hostname):
     try:
-        # Change the system hostname using scutil
         subprocess.run(['sudo', 'scutil', '--set', 'HostName', new_hostname], check=True)
         subprocess.run(['sudo', 'scutil', '--set', 'LocalHostName', new_hostname], check=True)
         subprocess.run(['sudo', 'scutil', '--set', 'ComputerName', new_hostname], check=True)
@@ -17,13 +16,10 @@ def change_hostname(new_hostname):
 def main():
     console = Console()
 
-    # Display welcome message
     console.print(Panel("Welcome to the macOS Hostname Changer!", style="bold green"), justify="center")
     
-    # Prompt for new hostname
     new_hostname = Prompt.ask("Enter the new hostname")
     
-    # Confirm the hostname format
     if new_hostname and len(new_hostname.strip()) > 0:
         console.print(f"[bold blue]Trying to change hostname to:[/bold blue] {new_hostname}", justify="center")
         
