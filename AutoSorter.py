@@ -2,6 +2,7 @@ import os
 import shutil
 from rich.console import Console
 
+
 console = Console()
 
 desktop_path = os.path.expanduser("~/Desktop")
@@ -32,7 +33,10 @@ file_types = {
     "Shell Scripts": [".sh"],
     "Ruby": [".rb"],
     "Java": [".java"],
-    "C++": [".cpp", ".h"]
+    "C++": [".cpp", ".h"],
+    "icons": [".icns"],
+    "rust": [".rs"],
+    "test": [".test"]
 }
 
 def sort_files():
